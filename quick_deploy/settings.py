@@ -25,7 +25,7 @@ SECRET_KEY = '9a0eieiwfyj%8q^^a7+)hf23h=w!)$#*zqfu+c9fw_0@ldermj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jacked.xyz','178.62.195.178']
 
 
 # Application definition
@@ -82,8 +82,12 @@ WSGI_APPLICATION = 'quick_deploy.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'quickdeploydb',
+    'USER': 'nickm',
+    'PASSWORD': 'atoughpassword',
+    'HOST':'localhost',
+    'POST': '',
     }
 }
 
