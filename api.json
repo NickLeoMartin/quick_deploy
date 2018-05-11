@@ -1,0 +1,22 @@
+[
+{
+  "model": "api.someitem",
+  "pk": 1,
+  "fields": {
+    "name": "beer",
+    "description": "A mighty, belgium, blonde beer",
+    "url": "http://www.blondebeer.com",
+    "barcode": 1234
+  }
+},
+{
+  "model": "api.someitem",
+  "pk": 2,
+  "fields": {
+    "name": "sandwich",
+    "description": "An average, atypical, dutch deli sandwich",
+    "url": "http://www.dutchdelisandwich.nl",
+    "barcode": 1235
+  }
+}
+]
